@@ -42,6 +42,7 @@ class App extends Component {
     // this.handleChange, this key word refrences the e value passed in handleChange(e)
     return(
       <div className='App'>
+        <h1>Monsters Rolodex</h1>
         <SearchBox placeholder='Search Monsters' handleChange={ this.handleChange } />
         <CardList monsters={ filterdMonsters } />
       </div>
